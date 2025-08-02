@@ -62,7 +62,7 @@ const MusicPlayer = () => {
       />
       <button 
         onClick={togglePlay}
-        className="bg-black hover:bg-gray-800 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
+        className="bg-red-500 hover:bg-red-700 cursor-pointer text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
         aria-label={isPlaying ? 'Pause music' : 'Play music'}
       >
         {isPlaying ? (
