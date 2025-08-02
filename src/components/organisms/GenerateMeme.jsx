@@ -746,7 +746,7 @@ const GenerateMeme = () => {
 
   return (
     <section id="generate-meme" className="min-h-screen flex flex-col items-center justify-center bg-sky-4/10 p-4">
-      <h2 className="text-4xl font-bold text-black-1 font-bangers uppercase mb-8">Generate Your Meme</h2>
+      <h2 className="text-4xl font-bold text-white font-bangers uppercase mb-8">Generate Your Meme</h2>
 
       {!backgroundImage ? (
         <div
@@ -761,14 +761,14 @@ const GenerateMeme = () => {
               </svg>
             </div>
             <div className="space-y-2">
-              <p className="text-xl font-semibold text-black-1">Drop your image here</p>
+              <p className="text-xl font-semibold text-white">Drop your image here</p>
               <p className="text-sm text-gray-600">or</p>
               <input type="file" accept="image/*" onChange={handleFileInput} className="hidden" id="fileInput" />
               <label htmlFor="fileInput" className="inline-block bg-sky-4 text-white-1 px-6 py-3 rounded-full cursor-pointer hover:bg-sky-5 transition-colors duration-200">
                 Browse Files
               </label>
             </div>
-            <div className="text-sm text-gray-500 space-y-1">
+            <div className="text-sm text-gray-100 space-y-1">
               <p>Supported formats: JPG, PNG, GIF</p>
               <p>Maximum file size: 10MB</p>
             </div>
