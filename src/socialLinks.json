@@ -6,19 +6,9 @@
       "icon": "/icons/twitter.png"
     },
     {
-      "name": "TikTok",
-      "url": "https://www.tiktok.com/@chillTROLL GUY",
-      "icon": "/icons/tiktok.png"
-    },
-    {
       "name": "Dexscreener",
       "url": "https://dexscreener.com/solana/7fbpdxnosfkmkoq37hasmksysbtutyugx9f3cw9wswg5",
       "icon": "/icons/dexscreener.png"
-    },
-    {
-      "name": "Dextools",
-      "url": "https://www.dextools.io/app/en/token/TROLL GUY?t=1749909894029", 
-      "icon": "/icons/dextools.png"
     }
   ],
   "contractAddress": "5uPoTbxtzmYKVUpJaHKnciVdnLCwwDk1wdPQh7adpump",
