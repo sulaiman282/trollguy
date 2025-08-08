@@ -25,7 +25,7 @@ const NavbarLink = ({ href, children, activeSection, isDrawer, toggleDrawer }) =
       href={href}
       onClick={handleClick}
       className={`px-4 py-1.5 text-sm font-medium rounded-full transition-colors duration-200
-        ${isActive ? 'bg-[#7D9FAC] text-[#FFFFFF]' : 'hover:bg-[#E0E0E0]'}
+        ${isActive ? 'bg-[#7D9FAC] text-[#FFFFFF]' : 'hover:bg-[#E0E0E0] text-white'}
         ${isDrawer ? 'w-full text-center py-3' : ''}
       `}
     >

@@ -6,6 +6,7 @@ import GenerateMeme from "@/components/organisms/GenerateMeme";
 import ImageSlider from "@/components/organisms/ImageSlider";
 import Footer from "@/components/organisms/Footer";
 import MusicPlayer from "@/components/atoms/MusicPlayer";
+import DexScreenerGraph from '@/components/organisms/DexScreenerGraph';
 
 export default function Home() {
   return (
@@ -15,10 +16,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <HomeSection />
+  
       <ImageSlider />
       <GenerateMeme />
       <Footer />
       <MusicPlayer />
+ 
     </main>
   )
 }
